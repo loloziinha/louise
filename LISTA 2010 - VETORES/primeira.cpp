@@ -12,4 +12,5 @@ int main() {
 
     cout << "Soma dos elementos: " << soma << endl;
     return 0;
+    
 }
