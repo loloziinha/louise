@@ -5,11 +5,14 @@ class Program {
         Console.Write("Informe o valor da glicose: ");
         double g = double.Parse(Console.ReadLine());
 
-        if (g <= 100)
+        if (g <= 100) {
             Console.WriteLine("Classificação: NORMAL");
-        else if (g <= 140)
+		}
+        else if (g <= 140) {
             Console.WriteLine("Classificação: ELEVADO");
-        else
+		}
+        else {
             Console.WriteLine("Classificação: DIABETES");
+		}
     }
 }
